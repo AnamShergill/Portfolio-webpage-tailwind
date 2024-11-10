@@ -1,9 +1,9 @@
 import React from 'react'
 import {FaCss3, FaFigma, FaHtml5, FaJs} from "react-icons/fa";
-import {SiRedis} from "react-icons/si"
+
 import { FaReact } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
-import {IoArrowForward} from "react-icons/io5"
+
 
 
 const Skills = () => {
@@ -37,7 +37,7 @@ const Skills = () => {
         {/* Paragraph Section */}
          
         <div className="flex-1 bg-slate-950 bg-opacity-45 mt-6 sm:mt-0 rounded-lg p-6 sm:p-8">
-        <h3 className="text-indigo-500 text-xl md:text-4xl font-bold mb-4">Technologies & Tools I'm Learning</h3>
+        <h3 className="text-indigo-500 text-xl md:text-4xl font-bold mb-4">Technologies & Tools I am Learning</h3>
         
   <ul className="space-y-4 text-lg">
     <li className="flex items-baseline text-white"><span className="font-semibold mr-2">Front-End:</span> HTML, CSS, JavaScript, React</li>

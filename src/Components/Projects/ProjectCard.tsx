@@ -1,5 +1,6 @@
 import React from 'react'
-import projectImg from '@/public/image/coding.image.jpg'
+import Image from 'next/image';
+import projectImg from '../../../public/coding.image.jpg'
 
 interface ProjectCardProps {
   title: string;
@@ -11,7 +12,13 @@ interface ProjectCardProps {
 const ProjectCard: React.FC<ProjectCardProps> = ({ title, main, demoLink, sourceCodeLink }) => {
   return (
     <div className='p-3 m:p-6 flex flex-col w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl'>
-      <img className='p-4' src={projectImg.src} alt="projectImage" />
+      <Image 
+  src="/coding.image.jpg" 
+  alt="Description" 
+  width={500} 
+  height={300} 
+  layout="intrinsic"
+/>
       <h3 className='px-4 text-xl md:text-2xl font-bold leading-normal'>
         {title}
       </h3>

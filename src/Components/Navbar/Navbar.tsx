@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react'
-import { RiCloseLine, RiMedal2Line, RiMenu2Line } from '@remixicon/react';
+import { RiCloseLine, RiMenu2Line } from '@remixicon/react';
 
 function Navbar() {
     const [menu,openMenu] = useState(false);

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import image from '../../public/image/image1.png'
+import image from '../../../public/image1.png'
 import TextChange from '../TextChange'
 
 function Home() {
@@ -11,7 +11,7 @@ function Home() {
           <TextChange/>
         </h1>
         <br/>
-        <p className='text-sm md:text-2xl tracking-tight'> I’m a passionate developer currently mastering web technologies and building interactive, 
+        <p className='text-sm md:text-2xl tracking-tight'> I am a passionate developer currently mastering web technologies and building interactive, 
           user-friendly websites and apps. 
           <br/>Want to know more about me? <br/>Check out my portfolio below!
          
@@ -20,10 +20,21 @@ function Home() {
             <button className='mt-5 md:md-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4
             hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]'>Contact me</button></a>
         </div>
-        <div ><img src={image.src} alt="My Image" width={600} height={200}/>
-
-
-</div>
+        <Image 
+  src="/image1.png" 
+  alt="Description" 
+  width={500} 
+  height={400} 
+  layout="responsive"
+/>
+        {/*<div style={{ position:'relative', width: '80%', height: '520px' }}>
+        <Image
+    src="/image1.png"
+    alt="Description"
+    layout="fill"
+    objectFit="responsive" // Optionally add to control how the image fits
+  />
+  </div>*/}
       
     </div>
 

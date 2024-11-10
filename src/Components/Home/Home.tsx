@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import image from '../../../public/image1.png'
 import TextChange from '../TextChange'
 
 function Home() {
@@ -23,7 +22,7 @@ function Home() {
         <Image 
   src="/image1.png" 
   alt="Description" 
-  width={500} 
+  width={400} 
   height={400} 
   layout="responsive"
 />

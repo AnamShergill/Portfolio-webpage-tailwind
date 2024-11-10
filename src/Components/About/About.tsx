@@ -1,7 +1,7 @@
 import React from 'react'
 import {IoArrowForward} from "react-icons/io5"
 import Image from 'next/image'
-import image from '../../../public/image.coding1.png'
+
 
 
 const about = () => {

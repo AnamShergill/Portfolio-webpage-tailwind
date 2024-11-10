@@ -1,5 +1,6 @@
+import React from 'react'
 import Image from 'next/image'
-import image from '../../image/image1.png'
+import image from '../../public/image/image1.png'
 import TextChange from '../TextChange'
 
 function Home() {
@@ -19,8 +20,10 @@ function Home() {
             <button className='mt-5 md:md-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4
             hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]'>Contact me</button></a>
         </div>
-        <div ><img className='w-full h-auto md:h-96 ' src={image.src} alt="image 
-        "/></div>
+        <div ><img src={image.src} alt="My Image" width={600} height={200}/>
+
+
+</div>
       
     </div>
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import projectImg from '@/image/coding.image.jpg'
+import projectImg from '@/public/image/coding.image.jpg'
 
 interface ProjectCardProps {
   title: string;

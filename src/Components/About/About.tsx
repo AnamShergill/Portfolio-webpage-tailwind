@@ -1,6 +1,6 @@
 import React from 'react'
 import {IoArrowForward} from "react-icons/io5"
-import image from '@/image/image.coding1.png'
+import image from '../../public/image/image.coding1.png'
 
 
 const about = () => {
@@ -9,7 +9,7 @@ const about = () => {
     shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-10'>
         <h2 className=' text-2xl md:text-4xl font-bold'> About Me</h2>
         <div className='md:flex flex-wrap flex-col md:flex-row items-center'>
-            <img className='md:h-80' src={image.src} alt="description"/>
+            <img className='md:h-80' src={image.src} alt="coding image" height={500} width={400}/>
 
             <ul>
               <div className='flex gap-3 py-4'>

@@ -25,7 +25,7 @@ const TextChange = () => {
 
   useEffect(() => {
     if (endValue >= targetText.length) {
-      // Once the text is fully typed, wait for 2 seconds and then start typing the next text
+    
       const timeoutId = setTimeout(() => {
         setEndValue(0); // Reset the text typing
         setTextIndex((prevIndex) => (prevIndex + 1) % texts.length); // Move to the next text, looping back to the first text
@@ -36,9 +36,9 @@ const TextChange = () => {
 
     // Typing animation
     const intervalId = setInterval(() => {
-      setCurrentText(targetText.substring(0, endValue + 1)); // Add one more character to the current text
-      setEndValue((prev) => prev + 1); // Increase endValue to type the next character
-    }, 150); // Typing speed (in milliseconds)
+      setCurrentText(targetText.substring(0, endValue + 1)); 
+      setEndValue((prev) => prev + 1); 
+    }, 150); 
 
     return () => clearInterval(intervalId); // Cleanup interval
   }, [endValue, targetText, textIndex]); // Re-run when endValue, targetText, or textIndex changes

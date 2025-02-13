@@ -19,10 +19,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, main, demoLink, source
   height={300} 
   layout="intrinsic"
 />
-      <h3 className='px-4 text-xl md:text-2xl font-bold leading-normal'>
+      <h3 className='px-4 py-5 text-xl md:text-2xl font-bold text-purple-800 leading-normal'>
         {title}
       </h3>
-      <p className='px-4 text-sm md:text-md leading-tight py-2'>{main}</p>
+      <p className='px-4 text-sm font-semibold md:text-md leading-tight py-2'>{main}</p>
       <div className='mt-2 p-2 md:p-4 flex gap-2 md:gap-4'>
         {/* Demo Button */}
         <a href={demoLink} target="_blank" rel="noopener noreferrer">

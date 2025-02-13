@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className='text-white flex flex-col md:flex-row items-center p-10 md:p-20'>
       <div className='md:w-2/4 w-full md:pt-20'>
-        <h1 className='text-3xl md:text-6xl font-bold leading-normal tracking-tighter'>
+        <h1 className='text-3xl md:text-6xl text-indigo-700 font-bold leading-normal tracking-tighter'>
           <TextChange />
         </h1>
         <br />

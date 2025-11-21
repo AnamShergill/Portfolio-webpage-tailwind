@@ -5,7 +5,7 @@ const TextChange = () => {
   const [currentText, setCurrentText] = useState("");
   const [endValue, setEndValue] = useState(0);
   const [textIndex, setTextIndex] = useState(0); // Index to track the current text in the array
-  const texts = ["Hi, I am Anam Shergill.", "Welcome to my portfolio!", "I love coding.", "Let's build something amazing!"];
+  const texts = ["👋Hi, I am Anam Shergill.", "🖥️Welcome to my portfolio!", "❤️I love coding.", "🛠️Let's build something!"];
 
   const targetText = texts[textIndex];
 
@@ -13,11 +13,12 @@ const TextChange = () => {
   const getEmojiForText = (text: string): string => {
     switch (text) {
       case "I love coding.":
-        return "❤️";
-      case "Let's build something amazing!":
-        return "🛠️";
+       
+      case "Let's build something!":
+       
+          
       case "Welcome to my portfolio!":
-        return"🌐";
+      
       default:
         return "";
     }

@@ -54,7 +54,7 @@ const Skills = () => {
 
         {/* Paragraph Section */}
        <div className="flex-1 bg-slate-950 bg-opacity-45 mt-6 sm:mt-0 rounded-lg p-6 sm:p-8 animate-fadeInUp">
-  <h3 className="text-indigo-500 text-xl md:text-4xl font-bold mb-4">
+  <h3 className="text-purple-800 text-xl md:text-4xl font-bold mb-4">
     Technical Expertise & Learning Path
   </h3>
 

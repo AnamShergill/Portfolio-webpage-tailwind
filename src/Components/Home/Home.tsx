@@ -31,16 +31,17 @@ function Home() {
      
       {/* Image Section */}
 <div className="md:w-1/2 w-full flex justify-center mt-28">
-  <div className="w-72 md:w-96 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(139,92,246,0.7)] rounded-xl">
+  <div className="w-96 md:w-[500px] border-4 border-purple-500  transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(139,92,246,0.7)] rounded-xl">
     <Image
-      src="/p1.png"
+      src="/image1.png"
       alt="Developer Image"
-      width={600}
-      height={600}
+      width={800}
+      height={800}
       className="rounded-xl w-full h-auto"
     />
   </div>
 </div>
+
 
 
 

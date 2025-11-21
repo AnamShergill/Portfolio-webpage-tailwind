@@ -12,7 +12,7 @@ function Home() {
           <TextChange />
         </h1>
 
-        <p className="text-sm md:text-2xl tracking-tight mt-4 pt-10">
+        <p className="text-sm md:text-2xl tracking-tight mt-4 pt-2">
           I am a passionate developer currently mastering web technologies and building 
           interactive, user-friendly websites and apps.
           <br />

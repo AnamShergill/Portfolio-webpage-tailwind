@@ -13,11 +13,11 @@ const TextChange = () => {
   const getEmojiForText = (text: string): string => {
     switch (text) {
       case "I love coding.":
-        return " ❤️";
+        return "❤️";
       case "Let's build something amazing!":
-        return " 🛠️";
+        return "🛠️";
       case "Welcome to my portfolio!":
-        return " 🌐";
+        return"🌐";
       default:
         return "";
     }

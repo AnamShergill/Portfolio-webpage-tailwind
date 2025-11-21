@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div id="Projects" className='p-10 md:p-24 text-white'>
       <h1 className='text-2xl md:text-4xl text-white font-bold'>Projects</h1>
-    <div className="py-14 px-8 flex flex-wrap gap-5 ">
+    <div className="py-14 px-8 flex flex-wrap justify-center gap-8">
       {/* Project Card 1 */}
       <ProjectCard
         title="Project 1: Countdown Timer App"

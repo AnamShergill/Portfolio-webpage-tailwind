@@ -30,17 +30,20 @@ function Home() {
 
      
       {/* Image Section */}
-<div className="md:w-1/2 w-full flex justify-center">
-  <div className="w-56 md:w-80">
+<div className="md:w-1/2 w-full flex justify-center mt-28">
+  <div className="w-72 md:w-96 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(139,92,246,0.7)] rounded-xl">
     <Image
       src="/p1.png"
       alt="Developer Image"
-      width={450}
-      height={450}
-      className="rounded-xl shadow-lg w-full h-auto"
+      width={600}
+      height={600}
+      className="rounded-xl w-full h-auto"
     />
   </div>
 </div>
+
+
+
 
 
     </div>
